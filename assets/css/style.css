@@ -34,7 +34,7 @@
   animation-iteration-count: infinite;
 }
 .box2 {
-  background: orange;
+  background: rgb(255, 0, 242);
   animation-delay: 0.2s;
 }
 .box3 {
@@ -46,7 +46,7 @@
   animation-delay: 0.6s;
 }
 .box5 {
-  background: #fffb00;
+  background: #ff0077;
   animation-delay: 0.8s;
 }
 @keyframes move {
