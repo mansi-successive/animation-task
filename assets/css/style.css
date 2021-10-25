@@ -51,14 +51,20 @@
 }
 @keyframes move {
   0% {
-    top: 150px;
+    /* top: 150px; */
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(150px);
   }
 
   50% {
-    top: 0px;
+    /* top: 0px; */
+    transform: translateY(300px);
   }
 
   100% {
-    top: 150px;
+    /* top: 150px; */
+    transform: translateY(0px);
   }
 }
